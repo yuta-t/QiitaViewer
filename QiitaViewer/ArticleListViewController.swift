@@ -12,7 +12,9 @@ class ArticleListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         title = "記事一覧"
+        
+        let table = UITableView(frame: view.frame)
+        view.addSubview(table)
     }
 }
