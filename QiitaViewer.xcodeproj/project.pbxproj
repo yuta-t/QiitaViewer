@@ -102,11 +102,7 @@
 		01B64F531C1459DF0039B99F /* QiitaViewer */ = {
 			isa = PBXGroup;
 			children = (
-				01B64F541C1459DF0039B99F /* AppDelegate.swift */,
-				01B64F581C1459DF0039B99F /* Main.storyboard */,
-				01B64F5B1C1459DF0039B99F /* Assets.xcassets */,
-				01B64F5D1C1459DF0039B99F /* LaunchScreen.storyboard */,
-				01B64F601C1459DF0039B99F /* Info.plist */,
+				01B64F881C145C420039B99F /* Application */,
 			);
 			path = QiitaViewer;
 			sourceTree = "<group>";
@@ -136,6 +132,18 @@
 				01B64F831C145B670039B99F /* SwiftyJSON.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		01B64F881C145C420039B99F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				01B64F541C1459DF0039B99F /* AppDelegate.swift */,
+				01B64F581C1459DF0039B99F /* Main.storyboard */,
+				01B64F5B1C1459DF0039B99F /* Assets.xcassets */,
+				01B64F5D1C1459DF0039B99F /* LaunchScreen.storyboard */,
+				01B64F601C1459DF0039B99F /* Info.plist */,
+			);
+			name = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
