@@ -10,7 +10,6 @@ import UIKit
 import Alamofire
 import SwiftyJSON
 
-class ArticleListViewController: UIViewController {
 class ArticleListViewController: UIViewController, UITableViewDataSource {
     var articles: [[String: String?]] = []
     let table = UITableView()
@@ -22,6 +21,10 @@ class ArticleListViewController: UIViewController, UITableViewDataSource {
         table.frame = view.frame
         view.addSubview(table)
         table.dataSource = self
+        
+        getArticles()
+    }
+    
     func getArticles() {
         Alamofire.request(.GET, "https://qiita.com/api/v2/items")
             .responseJSON { response in
