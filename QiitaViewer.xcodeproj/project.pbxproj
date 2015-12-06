@@ -83,9 +83,8 @@
 		01B64F481C1459DF0039B99F = {
 			isa = PBXGroup;
 			children = (
-				01B64F821C145B670039B99F /* Alamofire.framework */,
-				01B64F831C145B670039B99F /* SwiftyJSON.framework */,
 				01B64F531C1459DF0039B99F /* QiitaViewer */,
+				01B64F871C145BB50039B99F /* Frameworks */,
 				01B64F681C1459DF0039B99F /* QiitaViewerTests */,
 				01B64F731C1459DF0039B99F /* QiitaViewerUITests */,
 				01B64F521C1459DF0039B99F /* Products */,
@@ -131,6 +130,15 @@
 				01B64F761C1459DF0039B99F /* Info.plist */,
 			);
 			path = QiitaViewerUITests;
+			sourceTree = "<group>";
+		};
+		01B64F871C145BB50039B99F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01B64F821C145B670039B99F /* Alamofire.framework */,
+				01B64F831C145B670039B99F /* SwiftyJSON.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
