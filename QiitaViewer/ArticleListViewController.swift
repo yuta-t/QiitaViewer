@@ -13,5 +13,6 @@ class ArticleListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        title = "記事一覧"
     }
 }
