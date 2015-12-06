@@ -15,6 +15,7 @@
 		01B64F751C1459DF0039B99F /* QiitaViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B64F741C1459DF0039B99F /* QiitaViewerUITests.swift */; };
 		01B64F841C145B670039B99F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B64F821C145B670039B99F /* Alamofire.framework */; };
 		01B64F851C145B670039B99F /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B64F831C145B670039B99F /* SwiftyJSON.framework */; };
+		01B64F8B1C145C820039B99F /* ArticleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B64F8A1C145C820039B99F /* ArticleListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		01B64F761C1459DF0039B99F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01B64F821C145B670039B99F /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		01B64F831C145B670039B99F /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		01B64F8A1C145C820039B99F /* ArticleListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		01B64F531C1459DF0039B99F /* QiitaViewer */ = {
 			isa = PBXGroup;
 			children = (
+				01B64F891C145C5E0039B99F /* ArticleList */,
 				01B64F881C145C420039B99F /* Application */,
 			);
 			path = QiitaViewer;
@@ -144,6 +147,14 @@
 				01B64F601C1459DF0039B99F /* Info.plist */,
 			);
 			name = Application;
+			sourceTree = "<group>";
+		};
+		01B64F891C145C5E0039B99F /* ArticleList */ = {
+			isa = PBXGroup;
+			children = (
+				01B64F8A1C145C820039B99F /* ArticleListViewController.swift */,
+			);
+			name = ArticleList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01B64F551C1459DF0039B99F /* AppDelegate.swift in Sources */,
+				01B64F8B1C145C820039B99F /* ArticleListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
