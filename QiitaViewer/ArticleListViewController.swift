@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Alamofire
+import SwiftyJSON
 
 class ArticleListViewController: UIViewController {
     let table = UITableView()
