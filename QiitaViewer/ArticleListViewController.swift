@@ -11,6 +11,7 @@ import Alamofire
 import SwiftyJSON
 
 class ArticleListViewController: UIViewController {
+    var articles: [[String: String?]] = []
     let table = UITableView()
     
     override func viewDidLoad() {
